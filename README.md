@@ -21,7 +21,7 @@ Since our gyroscope data is in the **global reference frame**, but the sensor q
 
 #### Express the Gyroscope Data as a Quaternion
     
-    Since angular velocity is a vector, we represent it as a **pure quaternion**:
+Since angular velocity is a vector, we represent it as a **pure quaternion**:
     
 
 ```math
@@ -52,12 +52,11 @@ The corrected gyroscope data in the **local sensor frame** is given by:
 ω_{local}=q^{*}ωq
 ```
    
-
+This approach has seemed to solve the issue of walking direction. 
 ![Figure 3: Sensor rotated from global representation to the local representation.  ](https://github.com/jillemmerzaal/heading-direction/blob/main/local-gyro.png)
 
 Figure 3: Sensor rotated from global representation to the local representation.  
 
-This approach has seemed to solve the issue of walking direction. 
 
 ## Matlab implementation
 
