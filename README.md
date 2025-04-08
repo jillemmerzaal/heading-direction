@@ -28,7 +28,7 @@ Since our gyroscope data is in the **global reference frame**, but the sensor q
 \omega=(0,\omega_{x},\omega_{y},\omega_{z})
 ```
 
-where $\omega_{x}$,$\omega_{y}$,$\omega_{z}$ are the global gyroscope readings.
+where $`\omega_{x}`$, $`\omega_{y}`$, and $`\omega_{z}`$ are the global gyroscope readings.
 
 - **Compute the Quaternion Conjugate (Inverse Rotation)**
     
