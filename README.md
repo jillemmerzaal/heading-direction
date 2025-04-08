@@ -21,7 +21,7 @@ Since our gyroscope data is in the **global reference frame**, but the sensor q
 
 - **Express the Gyroscope Data as a Quaternion**
     
-    Since angular velocity is a vector, we represent it as a **pure quaternion**:
+    Since angular velocity is a vector, we represent it as a **pure quaternion**:\
     
 
 ```math
@@ -34,21 +34,23 @@ where $`\omega_{x}`$, $`\omega_{y}`$, and $`\omega_{z}`$ are the global gyrosc
     
     The sensor's quaternion q=(w,x,y,z) represents the orientation of the shank in the global frame.
     
-    The conjugate of $q{^*}$, which undoes this rotation, is:
+    The conjugate of $`q{^*}`$, which undoes this rotation, is:\
+  
     
-    ```math
-    q^{∗}=(w,−x,−y,−z)
-    ```
+```math
+q^{∗}=(w,−x,−y,−z)
+```
     
     This quaternion converts global data into the local (shank) frame.
     
 - **Apply the Rotation**
     
-    The corrected gyroscope data in the **local sensor frame** is given by:
+    The corrected gyroscope data in the **local sensor frame** is given by:\
+  
     
-    ```math
-    ω_{local}=q^{*}ωq
-    ```
+```math
+ω_{local}=q^{*}ωq
+```
     
 
 ![Figure 3: Sensor rotated from global representation to the local representation.  ](https://github.com/jillemmerzaal/heading-direction/blob/main/local-gyro.png)
