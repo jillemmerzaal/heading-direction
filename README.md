@@ -1,5 +1,5 @@
-# heading-direction
-Simple code to "fix" the Xsens link output back to local coordinate system
+# Heading direction
+Simple code to "fix" the Xsens link output back to local coordinate system. 
 
 ## The issue
 
@@ -9,7 +9,7 @@ The gyroscope data of the shank from the Xsens link system is represented in the
 
 Figure 1: the medio-lateral gyroscope signal from the left shank expressed in the global reference frame. The colored background are the different surfaces. 
 
-![figure 2: The associated walking parcours from figure 1. ](https://github.com/jillemmerzaal/heading-direction/blob/main/walking-course.png)
+![figure 2: The associated walking parcours from figure 1. ](https://github.com/jillemmerzaal/heading-direction/blob/main/walking-course-A.png)
 
 figure 2: The associated walking parcours from figure 1. 
 
