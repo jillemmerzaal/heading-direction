@@ -25,10 +25,10 @@ Since our gyroscope data is in the **global reference frame**, but the sensor q
     
 
 ```math
-\omega=(0,ω_{x},ω_{y},ω_{z})
+\omega=(0,\omega_{x},\omega_{y},\omega_{z})
 ```
 
-where ****ωx,ωy,ωz are the global gyroscope readings.
+where $\omega_{x}$,$\omega_{y}$,$\omega_{z}$ are the global gyroscope readings.
 
 - **Compute the Quaternion Conjugate (Inverse Rotation)**
     
@@ -36,9 +36,9 @@ where ****ωx,ωy,ωz are the global gyroscope readings.
     
     The conjugate of *q*, which undoes this rotation, is:
     
-    $$
+    ```math
     q^{∗}=(w,−x,−y,−z)
-    $$
+    ```
     
     This quaternion converts global data into the local (shank) frame.
     
@@ -46,9 +46,9 @@ where ****ωx,ωy,ωz are the global gyroscope readings.
     
     The corrected gyroscope data in the **local sensor frame** is given by:
     
-    $$
+    ```math
     ω_{local}=q^{*}ωq
-    $$
+    ```
     
 
 ![Figure 3: Sensor rotated from global representation to the local representation.  ](https://github.com/jillemmerzaal/heading-direction/blob/main/local-gyro.png)
