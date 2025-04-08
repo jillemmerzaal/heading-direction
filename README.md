@@ -34,7 +34,7 @@ where $\omega_{x}$,$\omega_{y}$,$\omega_{z}$ are the global gyroscope readings
     
     The sensor's quaternion q=(w,x,y,z) represents the orientation of the shank in the global frame.
     
-    The conjugate of *q*, which undoes this rotation, is:
+    The conjugate of $q{^*}$, which undoes this rotation, is:
     
     ```math
     q^{∗}=(w,−x,−y,−z)
