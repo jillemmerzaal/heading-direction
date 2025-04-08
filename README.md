@@ -24,9 +24,9 @@ Since our gyroscope data is in the **global reference frame**, but the sensor q
     Since angular velocity is a vector, we represent it as a **pure quaternion**:
     
 
-$$
-ω=(0,ω_{x},ω_{y},ω_{z})
-$$
+```math
+\omega=(0,ω_{x},ω_{y},ω_{z})
+```
 
 where ****ωx,ωy,ωz are the global gyroscope readings.
 
