@@ -1,5 +1,6 @@
 # Heading direction
 Simple code to "fix" the Xsens link output back to local coordinate system. 
+Data and figure 2 are from Losing, V., & Hasenjäger, M. (2022). A multi-modal gait database of natural everyday-walk in an urban environment. Scientific data, 9(1), 473.
 
 ## The issue
 
