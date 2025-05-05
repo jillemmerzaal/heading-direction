@@ -12,7 +12,7 @@ Figure 1: the medio-lateral gyroscope signal from the left shank expressed in th
 
 ![figure 2: The associated walking parcours from figure 1. ](https://github.com/jillemmerzaal/heading-direction/blob/main/walking-course-A.png)
 
-figure 2: The associated walking parcours from figure 1. 
+figure 2: The associated walking parcours from figure 1. Figure from Losing, V., & Hasenjäger, M. (2022)
 
 ## Possible solution
 
